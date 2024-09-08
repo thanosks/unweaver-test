@@ -174,7 +174,7 @@ class FeatureTable:
                    AND maxY >= ?
                    AND minY <= ?
             """,
-                (left, right, bottom, top),
+                (right, left, top, bottom),
             )
             ids = [r["id"] for r in rtree_rows]
 
