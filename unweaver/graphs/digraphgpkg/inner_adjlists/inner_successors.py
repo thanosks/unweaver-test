@@ -1,5 +1,5 @@
 """GeoPackage adapter for mutable networkx successor mapping."""
-from collections import MutableMapping
+from collections.abc import MutableMapping
 from typing import AbstractSet, Tuple
 
 from ..edges import Edge
