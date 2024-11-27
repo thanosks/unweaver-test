@@ -43,7 +43,7 @@ COL_TYPE_MAP = {
 # data. NOTE: this entire strategy is based around having no function to
 # calculate the distance (meters) between a LineString and a point directly. If
 # such a function were implemented, reprojection would be unnecessary.
-TO_SRID = 3740
+TO_SRID = 2100
 
 
 class FeatureTable:
