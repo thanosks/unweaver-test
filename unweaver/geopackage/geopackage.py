@@ -16,7 +16,7 @@ GPKG_USER_VERSION = 10200
 #        based on data.
 # NOTE: this strategy is based around having no function to calculate the
 #       distance (meters) between a LineString and a point directly.
-TO_SRID = 3740
+TO_SRID = 2100
 
 
 class GeoPackage:
