@@ -223,7 +223,7 @@ class FeatureTable:
             right, top, direction=TransformDirection.INVERSE
         )
 
-        return self.intersects(left, bottom, right, top)
+        return self.intersects(right, top, left, bottom)
 
     def dwithin(
         self, lon: float, lat: float, distance: float, sort: bool = False
